@@ -1,1 +1,13 @@
-### Link your references in here
+## References
+
+1. Stacked Traits in Biotech Crops - [https://www.isaaa.org/resources/publications/pocketk/42/](https://www.isaaa.org/resources/publications/pocketk/42/)
+2. Lombardo, Luca et al. (2016), New Technologies for Insect-Resistant and Herbicide-Tolerant Plants Trends in Biotechnology, Volume 34, Issue 1, 49 – 57.
+3. Shailani A, Joshi R, Singla-Pareek SL, Pareek A. Stacking for future: Pyramiding genes to improve drought and salinity tolerance in rice. Physiologia Plantarum. 2021; 172: 1352–1362. [https://doi.org/10.1111/ppl.13270](https://doi.org/10.1111/ppl.13270)
+4. Das Gitishree , Rao G. J. N. Molecular marker assisted gene stacking for biotic and abiotic stress resistance genes in an elite rice cultivar, Frontiers in Plant Science, VOLUME=6, YEAR=2015, DOI=[10.3389/fpls.2015.00698](https://doi.org/10.3389/fpls.2015.00698) 
+5. Jha, S., & Chattoo, B. B. (2009). Transgene stacking and coordinated expression of plant defensins confer fungal resistance in rice. Rice,2, 143–154.
+6.  Shehryar, K., Khan, R.S., Iqbal, A. et al. (2020). Transgene Stacking as Effective Tool for Enhanced Disease Resistance in Plants. Mol Biotechnol 62, 1–7. [https://doi.org/10.1007/s12033-019-00213-2](https://doi.org/10.1007/s12033-019-00213-2)
+7. Svitashev S, Young JK, Schwartz C, Gao H, Falco SC, Cigan AM (2015) Targeted mutagenesis, precise gene editing, and site-specific gene insertion in maize using Cas9 and guide RNA. Plant Physiol 169:931–945.  [https://doi.org/10.1104/pp.15.00793](https://doi.org/10.1104/pp.15.00793)
+8. Zhang H, Zhang J, Wei P, Zhang B, Gou F, Feng Z, Mao Y, Yang L, Zhang H, Xu N, Zhu J-K (2014) The CRISPR/Cas9 system produces specific and homozygous targeted gene editing in rice in one generation. Plant Biotechnol J 12:797–807. [https://doi.org/10.1111/pbi.12200](https://doi.org/10.1111/pbi.12200)
+9. Xing H-L, Dong L, Wang Z-P, Zhang H-Y, Ban C-Y, Liu B, Wang X-C, Chen Q-J (2014) A CRISPR/Cas9 toolkit for multiplex genome editing in plants. BMC Plant Biol 14:327. [https://doi.org/10.1186/s12870-014-0327-y](https://doi.org/10.1186/s12870-014-0327-y)
+10. Zhang Z, Mao Y, Ha S, Liu W, Botella JR, Zhu J-K (2015) A multiplex CRISPR/Cas9 platform for fast and efficient editing of multiple genes in Arabidopsis. Plant Cell Rep. [https://doi.org/10.1007/s00299-015-1900-z](https://doi.org/10.1007/s00299-015-1900-z)
+
