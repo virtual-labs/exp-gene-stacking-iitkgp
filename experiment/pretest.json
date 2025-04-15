@@ -2,38 +2,65 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. What process introduces foreign DNA into a plant genome?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Mutation",
+        "b": "Transformation",
+        "c": "Transcription",
+        "d": "Translation"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Which organism is commonly used for gene transfer in plants?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Escherichia coli",
+        "b": "Agrobacterium tumefaciens",
+        "c": "Bacillus subtilis",
+        "d": "Saccharomyces cerevisiae"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the role of a promoter in gene expression?",
+      "answers": {
+        "a": "Blocks gene transcription",
+        "b": "Initiates transcription",
+        "c": "Ends translation",
+        "d": "Splices RNA"
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What type of vector is commonly used in plant genetic engineering?",
+      "answers": {
+        "a": "BAC",
+        "b": "Ti plasmid",
+        "c": "Cosmids",
+        "d": "Lambda phage"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What is the role of restriction enzymes in genetic engineering?",
+      "answers": {
+        "a": "Join DNA fragments",
+        "b": "Cut DNA at specific sites",
+        "c": "Copy DNA",
+        "d": "Splice RNA"
+      },
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
+    
   ]
 }

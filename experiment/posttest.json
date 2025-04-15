@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. What is gene stacking in plants?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Combining multiple genes into one plant",
+        "b": "Separating genes for analysis",
+        "c": "Removing unwanted genes",
+        "d": "Blocking gene expression"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In gene stacking, multiple genes are introduced to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Inhibit gene expression",
+        "b": "Enhance multiple traits",
+        "c": "Produce hybrid DNA",
+        "d": "Reduce gene dosage"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Gene stacking can be done through:",
+      "answers": {
+        "a": "Traditional breeding",
+        "b": "Molecular techniques",
+        "c": "Both",
+        "d": "None"
       },
+     
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Stacked traits in plants provide resistance against:",
+      "answers": {
+        "a": "Insects and herbicides",
+        "b": "Birds and wind",
+        "c": "Rain and humidity",
+        "d": "UV radiation"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a potential risk of gene stacking?",
+      "answers": {
+        "a": "Gene silencing",
+        "b": "Enhanced flowering",
+        "c": "Reduced photosynthesis",
+        "d": "Excess water absorption"
+      },
+     
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
