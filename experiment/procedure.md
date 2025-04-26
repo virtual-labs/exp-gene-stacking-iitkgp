@@ -1,30 +1,37 @@
 ## Procedure
 
 ### Basic steps for a gene stacking experiment in plants:
+
 #### 1. Choosing of the target traits and target plant
 - Identification of the traits for improvements (e.g., drought tolerance, pest resistance, nutrient efficiency).
 - Selection of corresponding **genes/QTLs** associated with each trait.
+
 #### 2. Designing of genetic construct
 - Cloning of a single or multiple gene(s) into the multiple cloning site of the T-DNA or vector.
 - Using of compatible **promoters**, **terminators**, and **marker genes** for each gene in the stack.
+
 #### 3. Plant Transformation
 - Choosing of an appropriate transformation method:
   - **Agrobacterium-mediated** (commonly for dicots)
   - **Biolistics (gene gun)** (used for monocots like maize)
 - Transformation into target crop.
+
 #### 4. Regeneration and Selection
 - Growing of the transformants on selection media with antibiotics/herbicides.
 - Regeneration of full plants from transformed tissues (callus → shoot → root).
+
 #### 5. Molecular Confirmation
 - Confirmation of the presence and expression of **all stacked genes** using:
   - PCR / qPCR (for gene presence and copy number)
   - RT-PCR / qRT-PCR (for expression)
   - Southern blot (integration pattern)
   - Western blot (protein expression)
+
 #### 6. Phenotypic Screening
 - Evaluation of the plants under **controlled and field conditions** for:
   - Trait expression (e.g., stress tolerance, pest resistance)
   - Agronomic performance
+
 #### 7. Generational Stability & Inheritance
 - Growing of further generation of the transformant plants T1, T2, etc., for confirmation of gene expression and trait stability across generations.
 - Performing **Mendelian segregation analysis** for each gene.
