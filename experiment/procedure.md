@@ -52,6 +52,6 @@
 
 #### Step 3: Molecular confirmation of the transgenic plants and growing in further generations   
 **3.1:** DNA and RNA were extracted from the putative transgenic plants and were confirmed by PCR/qPCR at the genomic/transcript level. Protein expression was checked by Western Blot.  
-**3.2:** After molecular confirmation and protein expression check, seeds were collected from the T0 plant and further plant generations were grown (T1, T2, etc.)
+**3.2:** After molecular confirmation and protein expression check, seeds were collected from the T0 plant and further plant generations were grown (T1, T2, etc.)  
 **3.3:** Molecular confirmation tests were carried out for the further generations.  
 **3.4:** Evaluation of the traits for improved drought and salinity tolerance.
