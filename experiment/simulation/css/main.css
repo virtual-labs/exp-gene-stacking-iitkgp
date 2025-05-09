@@ -1,1 +1,186 @@
 /* You CSS goes in here */
+
+
+.card {
+    margin-bottom: 5px;
+}
+
+
+
+
+#targetplantcss {
+    cursor: pointer;
+    position: relative;
+    top: 2%;
+    left: 5%;
+    width: 12%;
+    display: none;
+    z-index: 1;
+}
+
+
+#genecss {
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: none;
+    z-index: 2;
+    width: 10%;
+    height: 15%;
+}
+
+#recomvecttorcss {
+
+    position: absolute;
+    top: 17.5%;
+    /*23 */
+    left: 35%;
+    /* 80*/
+    width: 30%;
+    height: 45%;
+    display: none;
+    cursor: pointer;
+
+}
+
+#agrotumefacienscss {
+    position: absolute;
+    top: 10%;
+    left: 68%;
+    width: 10%;
+    height: 35%;
+    cursor: pointer;
+    /* stem outline 2D7600 */
+    display: none;
+}
+
+
+
+
+#plantcalluscss {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    display: none;
+    width: 10%;
+    height: 40%;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+
+
+#coloniescss {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 15%;
+    cursor: pointer;
+    display: none;
+
+}
+
+#genestackedcss {
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    width: 8%;
+    cursor: pointer;
+    display: none;
+
+}
+
+#dnarnacss {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    width: 20%;
+    cursor: pointer;
+    display: none;
+
+}
+
+#thermalcylercss {
+    position: relative;
+    top: 20%;
+    left: 2%;
+    width: 25%;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+#dnabandscss {
+    position: absolute;
+    top: 18%;
+    left: 35%;
+    width: 10%;
+    cursor: pointer;
+    display: none;
+}
+
+#westernblotimagecss {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 20%;
+    cursor: pointer;
+    display: none;
+
+}
+
+#confirmbandshowcss {
+    position: absolute;
+    top: 47%;
+    left: 70%;
+    width: 7%;
+    cursor: pointer;
+    display: none;
+
+}
+
+#plantseedcss {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    width: 7%;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+
+#growplantcss {
+    position: relative;
+    top: 0%;
+    left: 2%;
+    width: 20%;
+    cursor: pointer;
+    display: none;
+
+
+}
+
+
+#dnaproteinbandcss {
+    position: relative;
+    top: 20%;
+    left: 2%;
+    width: 25%;
+    cursor: pointer;
+    display: none;
+}
+
+
+#plantimprovetraitscss {
+    position: relative;
+    top: 18%;
+    left: 2%;
+    width: 20%;
+    cursor: pointer;
+    display: none;
+}
