@@ -1,3 +1,3 @@
 ## Aim of the experiment
 
-Gene Stacking – Improved Trait Introduction in Local Cultivars
+To study and implement the concept of gene stacking in local crop cultivars for better desired phenotypes and traits.

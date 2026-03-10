@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "In gene stacking, multiple genes are introduced to:",
+      "question": "2. In gene stacking, multiple genes are introduced to:",
       "answers": {
         "a": "Inhibit gene expression",
         "b": "Enhance multiple traits",
@@ -26,7 +26,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Gene stacking can be done through:",
+      "question": "3. Gene stacking can be done through:",
       "answers": {
         "a": "Traditional breeding",
         "b": "Molecular techniques",
@@ -50,7 +50,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is a potential risk of gene stacking?",
+      "question": "5. What is a potential risk of gene stacking?",
       "answers": {
         "a": "Gene silencing",
         "b": "Enhanced flowering",
@@ -59,6 +59,66 @@
       },
      
       "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which method allows marker-free stacked transgenics??",
+      "answers": {
+        "a": "Antibiotic selection",
+        "b": "Visual reporter genes",
+        "c": "Site-specific recombination systems",
+        "d": "Random segregation"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. When stacking multiple insect resistance genes, pyramiding is preferred because it:",
+      "answers": {
+        "a": "Increases protein expression",
+        "b": "Delays resistance evolution in pests",
+        "c": "Eliminates need for refugia",
+        "d": "Enhances photosynthesis"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Why is codon optimization important in stacked transgenes?",
+      "answers": {
+        "a": "To reduce recombination",
+        "b": "To improve transcription",
+        "c": "To enhance translational efficiency",
+        "d": "To prevent silencing"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Which analytical method confirms co-integration of multiple transgenes at one locus?",
+      "answers": {
+        "a": "RT-PCR",
+        "b": "ELISA",
+        "c": "Southern blotting",
+        "d": "Western blotting"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. The most effective long-term application of gene stacking in agriculture is:",
+      "answers": {
+        "a": "Single-trait enhancement",
+        "b": "Marker gene removal",
+        "c": "Durable multi-stress resistance",
+        "d": "Increased transformation efficiency"
+      },
+     
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
