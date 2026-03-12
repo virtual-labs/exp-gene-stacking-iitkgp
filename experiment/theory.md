@@ -5,7 +5,7 @@ Gene stacking refers to the process of introducing multiple genes into a plant t
 
 
 <div align="center">
-<img src="images/Fig 1.jpg" width="50%">
+<img src="images/Fig 1.jpg" style="max-width:100%; height:auto";>
 <p> Figure 1: Gene stacking by plant breeding. Source: [1]</p>
 </div>
 
@@ -39,7 +39,7 @@ Transgenes can be stacked into plants via transformation events. Agrobacterium t
 Even when transgenes are physically connected, uncoordinated expression is thought to be a significant barrier to their co-expression. Silencing of the transgenes may also result from many copies of the transgenes in the transgenic plants' genome. Gene sequences for various proteins can be cloned into a single open reading frame utilizing the short linkers to get around these restrictions. When the linker peptides pass through the endomembrane system, the host cell's proteinase then cleaves them into protein units. Two antimicrobial proteins, Rs-AFP2 and Dm-AMP1, connected by the 16 amino acid Ib-AMP linker peptide, were isolated from Impatiens balsamina seeds to create a gene construct by Jha and Chatto. Agrobacterium-mediated transformation was used to create transgenic rice with single-protein genes and cleavable chimeric polyprotein gene constructs.  Compared to the wild-type rice, the transgenic rice was found to have greater resistance to the Rhizoctonia bacterium (79% higher) and the rice blast fungus 90% higher [5, 6].
 
 <div align="center">
-<img src="images/Fig 2.jpg" width="50%">
+<img src="images/Fig 2.jpg" style="max-width:100%; height:auto";>
 <p> Figure 2: Diagrammatic representation of crossing and re-transformation-based strategy for gene stacking in plants.  Source: [https://www.researchgate.net/figure/Diagrammatic-representation-of-crossing-and-re-transformation-based-strategy-for-gene_fig2_363552368](https://www.researchgate.net/figure/Diagrammatic-representation-of-crossing-and-re-transformation-based-strategy-for-gene_fig2_363552368)</p>
 </div>
 
