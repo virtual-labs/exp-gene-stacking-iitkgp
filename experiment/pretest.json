@@ -5,9 +5,9 @@
       "question": "1. What process introduces foreign DNA into a plant genome?",
       "answers": {
         "a": "Mutation",
-        "b": "Transformation",
+        "b": "Translation",
         "c": "Transcription",
-        "d": "Transfornation"
+        "d": "Transformation"
       },
      
       "correctAnswer": "d",
