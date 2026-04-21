@@ -1,4 +1,4 @@
-## References
+## References and for further readings
 
 1. Stacked Traits in Biotech Crops - [https://www.isaaa.org/resources/publications/pocketk/42/](https://www.isaaa.org/resources/publications/pocketk/42/)
 2. Lombardo, Luca et al. (2016), New Technologies for Insect-Resistant and Herbicide-Tolerant Plants Trends in Biotechnology, Volume 34, Issue 1, 49 – 57.
