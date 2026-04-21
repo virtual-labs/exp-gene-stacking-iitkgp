@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Add CSS at the head of HTML file -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- Your code goes here-->
+	<div class="container-fluid p-2 mt-2 ">
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions
+						<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+							onclick="restartexp()">
+							Re-Do the Experiment</button>
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+							<li>Click on the button "Select target plant" to display target plant. </li>
+							<li>Click on the button "Isolate/synthesise target genes" to display gene.</li>
+							<li>Click on the button "Subclone genes into suitable plant expression vector" to display
+								the recombinant vector. </li>
+							<li>Click on the button "Use recombinant vector with genes to transform Agrobacterium
+								tumefaciens" to display Transformed tumefaciens cell. </li>
+							<li> Now click on the target plant image to display Plant callus.</li>
+							<li>Click on the button "Infect plant callus with transformed Agrobacterium tumefaciens
+								harbouring the Ti – plasmid based recombinant plant expression vector" to display the
+								plant callus with Agrobacterium tumefaciens colonies. </li>
+							<li>Click on the button "Regenerate plant under antibiotic selection pressure from infected
+								callus" to display gene stacked plant T0.</li>
+							<li> Click on the button "Isolate DNA/RNA from T0 gene stacked plant" to display the DNA and
+								RNA. </li>
+							<li> Click on the button "Molecular confirmation by PCR/qPCR of T0 Plants" image to display the thermal cycler. </li>
+							
+							<li> Click on the button "Check protein expression by western blot" image to display the "Western Blot apparatus"
+								image . </li>
+							
+							<li>Now, click on the button "Collect seeds from gene stacked T0 plants". This will collect the seed and plant seed
+								image will appear. </li>
+							<li>Click on the button "Grow further generations of the plant (T1, T2, etc)" to grow further generations of the plant (T1, T2, etc).</li>
+							<li>
+								Click on the button "Molecular re-confirmation of T1, T2, etc plants by PCR/qPCR and
+								protein expression using Western Blot" to show DNA/RNA and protein bands.</li>
+							<li>click on the button "Evaluation of the introduced/improved traits in the gene stacked
+								plants", to display the improved traits of plants. </li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+
+
+					</div>
+					<div class="container">
+<div class="row g-2">
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="showtargetplant();">
+Step 1: Select target plant
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 2: Isolate / synthesise target genes
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 3: Subclone genes into suitable plant expression vector
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 4: Use recombinant vector with genes to transform Agrobacterium tumefaciens
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 5: Infect plant callus with transformed Agrobacterium tumefaciens harbouring the Ti–plasmid based recombinant plant expression vector
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn6" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 6: Regenerate plant under antibiotic selection pressure from infected callus
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn7" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 7: Isolate DNA/RNA from T0 gene stacked plant
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn8" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 8: Molecular confirmation by PCR/qPCR of T0 Plants
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn9" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 9: Check protein expression by Western blot
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn10" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 10: Collect seeds from gene stacked T0 plants
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn11" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 11: Grow further generations of the plant (T1, T2, etc)
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn12" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 12: Molecular re-confirmation of T1, T2 plants by PCR/qPCR and protein expression using Western blot
+</button>
+</div>
+
+<div class="col-md-3">
+<button class="btn btn-info w-100" id="btn13" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Step 13: Evaluation of the introduced / improved traits in the gene stacked plants
+</button>
+</div>
+
+</div>
+</div>
+
+					<!-- <div class="card-body">
+
+						<table class="table table-bordered">
+							<tr>
+								<td>
+									<button class="btn btn-info " type="button" id="btn1" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" onclick="showtargetplant();">
+										Select target plant</button>
+								</td>
+								<td> <button class="btn btn-info " type="button" id="btn2" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Isolate/synthesise target genes</button></td>
+								<td><button class="btn btn-info " type="button" id="btn3" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Subclone genes into suitable plant expression vector</button></td>
+								<td><button class="btn btn-info " type="button" id="btn4" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Use recombinant vector with genes to transform Agrobacterium
+										tumefaciens</button></td>
+								<td> <button class="btn btn-info " type="button" id="btn5" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Infect plant callus with transformed Agrobacterium tumefaciens harbouring the Ti
+										– plasmid based recombinant plant expression vector</button>
+								</td>
+								<td><button class="btn btn-info " type="button" id="btn6" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Regenerate plant under antibiotic selection pressure from infected
+										callus</button>
+								</td>
+								<td><button class="btn btn-info " type="button" id="btn7" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Isolate DNA/RNA from T0 gene stacked plant</button></td>
+								<td> <button class="btn btn-info " type="button" id="btn8" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Molecular confirmation by PCR/qPCR of T0 Plants
+									</button></td>
+
+								<td><button class="btn btn-info " type="button" id="btn9" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Check protein expression by western blot
+									</button>
+
+								</td>
+								<td><button class="btn btn-info " type="button" id="btn10" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Collect seeds from gene stacked T0 plants
+
+									</button>
+
+								</td>
+								<td><button class="btn btn-info " type="button" id="btn11" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Grow further generations of the plant (T1, T2, etc)
+
+									</button>
+
+								</td>
+								<td><button class="btn btn-info " type="button" id="btn12" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Molecular re-confirmation of T1, T2, etc plants by PCR/qPCR and protein
+										expression using Western Blot
+
+									</button>
+
+								</td>
+
+
+
+
+								<td><button class="btn btn-info " type="button" id="btn13" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Evaluation of the introduced/improved traits in the gene stacked
+										plants.</button>
+
+								</td>
+							</tr>
+
+
+
+						</table>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<!-- <div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-body">
+						<p id="showtxt" class="fs-4"></p>
+						<p id="shownote" class="fs-4"></p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card card-body border border-0">
+					<img src="./images/2.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plant" id="targetplantcss">
+					<img src="./images/4.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Gene" id="genecss">
+
+					<img src="./images/6.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=" "
+						id="recomvecttorcss">
+
+					<img src="./images/8.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Extracted DNA in pellet form" id="agrotumefacienscss">
+
+					<img src="./images/9.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plant Callus" id="plantcalluscss">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="card card-body border border-0">
+					<img src="./images/11.png" class="img-fluid" id="coloniescss">
+
+					<img src="./images/13.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="genestackedcss">
+					<img src="./images/15.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="dnarnacss">
+						<img src="./images/16.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="thermalcylercss">
+
+					
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="card card-body border border-0">
+					<img src="./images/17.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="dnabandscss">
+<img src="./images/20.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="plantseedcss">
+					<img src="./images/21.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="growplantcss">
+					<img src="./images/23.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="dnaproteinbandcss">
+					
+					<!-- <img src="./images/18.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="westernblotimagecss">
+					<img src="./images/19.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="confirmbandshowcss"> -->
+
+					<img src="./images/25.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="plantimprovetraitscss">
+					<!--img src="./images/lab_person.png" class="img-fluid" id="labpersoncss"-->
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="shownote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Note</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p></p>
+
+				</div>
+				<div class="modal-footer">
+
+					<button type="button" class="btn btn-warning" onclick="hidenotemsg();"
+						data-bs-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+	</div> 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="./js/main.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
+
+	</script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+
+</html>

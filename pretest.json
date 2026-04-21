@@ -1,0 +1,127 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What process introduces foreign DNA into a plant genome?",
+      "answers": {
+        "a": "Mutation",
+        "b": "Translation",
+        "c": "Transcription",
+        "d": "Transformation"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which organism is commonly used for gene transfer in plants?",
+      "answers": {
+        "a": "Escherichia coli",
+        "b": "Agrobacterium tumefaciens",
+        "c": "Bacillus subtilis",
+        "d": "Saccharomyces cerevisiae"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the role of a promoter in gene expression?",
+      "answers": {
+        "a": "Blocks gene transcription",
+        "b": "Initiates transcription",
+        "c": "Ends translation",
+        "d": "Splices RNA"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What type of vector is commonly used in plant genetic engineering?",
+      "answers": {
+        "a": "BAC",
+        "b": "Ti plasmid",
+        "c": "Cosmids",
+        "d": "Lambda phage"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What is the role of restriction enzymes in genetic engineering?",
+      "answers": {
+        "a": "Join DNA fragments",
+        "b": "Cut DNA at specific sites",
+        "c": "Copy DNA",
+        "d": "Splice RNA"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which of the following is a constitutive promoter commonly used in plant biotechnology?",
+      "answers": {
+        "a": "T7promoter",
+        "b": "lac promoter",
+        "c": "CaMV 35S promoter",
+        "d": "trp promoter"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. What is the function of a selectable marker gene in plant transformation?",
+      "answers": {
+        "a": "Enhances gene expression",
+        "b": "Allows identification of transformed cells",
+        "c": "Prevents mutation",
+        "d": "Increases recombination"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. DNA ligase is essential for:",
+      "answers": {
+        "a": "Cutting DNA",
+        "b": "Amplifying DNA",
+        "c": "Joining DNA fragments",
+        "d": "Denaturing DNA"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. PCR is primarily used to:",
+      "answers": {
+        "a": "Sequence DNA",
+        "b": "Clone proteins",
+        "c": "Amplify DNA",
+        "d": "Modify RNA"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "10. Which plant tissue is most commonly used for regeneration of transgenic plants?",
+      "answers": {
+        "a": "Root hairs",
+        "b": "Meristem",
+        "c": "Pollen grains",
+        "d": "Callus"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+    
+  ]
+}

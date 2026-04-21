@@ -1,0 +1,53 @@
+
+/home/runner/work/exp-gene-stacking-iitkgp/exp-gene-stacking-iitkgp/experiment/simulation/js/main.js
+    3:10  warning  'restartexp' is defined but never used            no-unused-vars
+    7:10  warning  'showtargetplant' is defined but never used       no-unused-vars
+   13:10  warning  'geneshow' is defined but never used              no-unused-vars
+   16:5   warning  '$' is not defined                                no-undef
+   17:5   warning  '$' is not defined                                no-undef
+   18:5   warning  '$' is not defined                                no-undef
+   24:10  warning  'subclonegenevector' is defined but never used    no-unused-vars
+   28:6   warning  '$' is not defined                                no-undef
+   29:6   warning  '$' is not defined                                no-undef
+   30:2   warning  '$' is not defined                                no-undef
+   33:10  warning  'agrotume' is defined but never used              no-unused-vars
+   37:5   warning  '$' is not defined                                no-undef
+   38:1   warning  '$' is not defined                                no-undef
+   39:1   warning  '$' is not defined                                no-undef
+   44:10  warning  'plantcallusshow' is defined but never used       no-unused-vars
+   47:5   warning  '$' is not defined                                no-undef
+   48:1   warning  '$' is not defined                                no-undef
+   49:1   warning  '$' is not defined                                no-undef
+   54:10  warning  'coloniesshow' is defined but never used          no-unused-vars
+   59:5   warning  '$' is not defined                                no-undef
+   60:1   warning  '$' is not defined                                no-undef
+   61:1   warning  '$' is not defined                                no-undef
+   66:10  warning  'genestacked' is defined but never used           no-unused-vars
+   70:5   warning  '$' is not defined                                no-undef
+   71:1   warning  '$' is not defined                                no-undef
+   72:1   warning  '$' is not defined                                no-undef
+   76:10  warning  'dnarnashow' is defined but never used            no-unused-vars
+   80:5   warning  '$' is not defined                                no-undef
+   81:1   warning  '$' is not defined                                no-undef
+   82:1   warning  '$' is not defined                                no-undef
+   88:10  warning  'thermalcyclershow' is defined but never used     no-unused-vars
+   92:5   warning  '$' is not defined                                no-undef
+   93:1   warning  '$' is not defined                                no-undef
+   94:1   warning  '$' is not defined                                no-undef
+  106:10  warning  'westernblotimageshow' is defined but never used  no-unused-vars
+  110:6   warning  '$' is not defined                                no-undef
+  111:1   warning  '$' is not defined                                no-undef
+  112:1   warning  '$' is not defined                                no-undef
+  127:10  warning  'plantseedshow' is defined but never used         no-unused-vars
+  133:5   warning  '$' is not defined                                no-undef
+  134:1   warning  '$' is not defined                                no-undef
+  135:1   warning  '$' is not defined                                no-undef
+  142:10  warning  'growplant' is defined but never used             no-unused-vars
+  154:10  warning  'molepcr' is defined but never used               no-unused-vars
+  162:10  warning  'showimprovedtraits' is defined but never used    no-unused-vars
+  166:5   warning  Unnecessary semicolon                             no-extra-semi
+  169:10  warning  'hidenotemsg' is defined but never used           no-unused-vars
+
+✖ 47 problems (0 errors, 47 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
